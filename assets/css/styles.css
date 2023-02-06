@@ -18,7 +18,7 @@
 }
 
 .header_scrol {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgb(255, 255, 255);
 }
 
 @media screen and (min-width: 768px) {
@@ -2089,6 +2089,7 @@ img {
     align-items: center;
     text-align: center;
     letter-spacing: 1px;
+    text-transform: uppercase;
     color: #FFFFFF;
   }
   #footer {
@@ -2310,11 +2311,11 @@ img {
   main #hero #div1 #div2 #div3 .itm1 .hero_button .btn3 span {
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 22px;
     display: flex;
     justify-content: center;
-    letter-spacing: 1px;
+    text-transform: uppercase;
   }
   main #hero #div1 #scroll-btn .scroll-content img {
     position: relative;
@@ -2375,11 +2376,11 @@ img {
   main #more__about #div1 #div2 #img-div .para .about_button .btn3 span {
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 22px;
     display: flex;
     justify-content: center;
-    letter-spacing: 1px;
+    text-transform: uppercase;
   }
   .services #hero {
     padding: 169px 0;
