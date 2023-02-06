@@ -3198,16 +3198,23 @@ img {
         }
 
         #more__about {
-            margin: 6rem 7rem 0 7rem;
+            margin: 22rem 7rem 0 7rem;
 
             #div1 {
                 #div2 {
                     #img-div {
-                        .img__para {
-                            img {
-                                position: relative;
-                                left: 0px;
-                                top: 32px;
+                        padding: 8rem 0px;
+
+                        .content {
+                            h2 {
+                                font-family: 'Poppins';
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 31.25px;
+                                line-height: 47px;
+                                display: flex;
+                                align-items: center;
+                                color: #060B07;
                             }
 
                             p {
@@ -3223,19 +3230,6 @@ img {
                             }
                         }
 
-                        .content {
-                            h2 {
-                                font-family: 'Poppins';
-                                font-style: normal;
-                                font-weight: 600;
-                                font-size: 31.25px;
-                                line-height: 47px;
-                                display: flex;
-                                align-items: center;
-                                color: #060B07;
-                            }
-                        }
-
                         .para {
                             p {
                                 font-style: normal;
@@ -3245,349 +3239,22 @@ img {
                                 color: #6A6D6A;
                                 padding: 28px 31px 0 0;
                             }
-                        }
-                    }
-                }
-            }
-        }
 
-        #services {
-            margin: 6rem 7rem 0 7rem;
+                            .about_button {
+                                margin: 46px 0 46px 0;
 
-            #div1 {
-                #div2 {
-                    #img-div {
-                        .img__para {
-                            img {
-                                position: relative;
-                                left: 0px;
-                                // top: 32px;
-                            }
-
-                            p {
-                                position: relative;
-                                font-style: normal;
-                                font-weight: 500;
-                                font-size: 16px;
-                                line-height: 24px;
-                                display: flex;
-                                align-items: center;
-                                color: #060B07;
-                                top: 8px;
-                                right: 19px;
-
-                            }
-                        }
-                    }
-                }
-
-                #div3 {
-                    .div4 {
-                        .c1 {
-                            width: 85%;
-                            background-repeat: no-repeat;
-
-                            #cardBody1 {
-                                .card-text1 {
-                                    img {
-                                        width: 168.85px;
-                                        height: 91.78px;
-                                    }
-                                }
-
-                                .cardtext1 {
-                                    margin: 30px 15px 20px 15px;
-
-                                    h2 {
-                                        font-style: normal;
-                                        font-weight: 600;
-                                        font-size: 25px;
-                                        line-height: 38px;
-                                        text-align: center;
-                                        color: #060B07;
-                                    }
-
-                                    p {
-                                        font-style: normal;
-                                        font-weight: 400;
-                                        font-size: 16px;
-                                        line-height: 24px;
-                                        text-align: center;
-                                        color: #383C39;
-                                        margin: 24px 6px;
-                                    }
-
-                                    .card_button {
-                                        a {
-                                            .btn3 {
-                                                color: var(--white-color);
-                                                // opacity: .4;
-                                                background-color: var(--primary-color);
-                                                border-color: var(--primary-color);
-                                                padding: 9px 28px;
-
-
-                                                &:hover {
-                                                    background-color: transparent;
-                                                    color: var(--primary-color);
-                                                    border-color: var(--primary-color);
-                                                }
-
-                                                span {
-                                                    font-style: normal;
-                                                    font-weight: 500;
-                                                    font-size: 16px;
-                                                    line-height: 22px;
-                                                    /* identical to box height, or 138% */
-
-                                                    display: flex;
-                                                    align-items: center;
-                                                    text-align: center;
-                                                    letter-spacing: 1px;
-                                                }
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        }
-
-                        .c2 {
-                            width: 85%;
-                            background-repeat: no-repeat;
-
-                            #cardBody1 {
-                                .card-text1 {
-                                    img {
-                                        width: 106.35px;
-                                        height: 91.78px;
-                                    }
-                                }
-
-                                .cardtext1 {
-                                    margin: 30px 15px 20px 15px;
-
-                                    h2 {
-                                        font-style: normal;
-                                        font-weight: 600;
-                                        font-size: 25px;
-                                        line-height: 38px;
-                                        text-align: center;
-                                        color: #060B07;
-                                    }
-
-                                    p {
-                                        font-style: normal;
-                                        font-weight: 400;
-                                        font-size: 16px;
-                                        line-height: 24px;
-                                        text-align: center;
-                                        color: #383C39;
-                                        margin: 24px 0;
-                                    }
-
-                                    .card_button {
-                                        a {
-                                            .btn3 {
-                                                color: var(--primary-color);
-                                                background-color: white;
-                                                border-color: var(--White-color);
-                                                padding: 9px 28px;
-
-                                                &:hover {
-                                                    background-color: transparent;
-                                                    color: var(--white-color);
-                                                    border-color: var(--white-color);
-                                                }
-
-                                                span {
-                                                    font-style: normal;
-                                                    font-weight: 500;
-                                                    font-size: 16px;
-                                                    line-height: 22px;
-                                                    /* identical to box height, or 138% */
-
-                                                    display: flex;
-                                                    align-items: center;
-                                                    text-align: center;
-                                                    letter-spacing: 1px;
-                                                }
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-
-        #locations {
-            margin: 6rem 7rem 0 7rem;
-
-            #div1 {
-                #div2 {
-                    #img-div {
-                        .img__para {
-                            img {
-                                position: relative;
-                                left: 0px;
-                                // top: 32px;
-                            }
-
-                            p {
-                                position: relative;
-                                font-style: normal;
-                                font-weight: 500;
-                                font-size: 16px;
-                                line-height: 24px;
-                                display: flex;
-                                align-items: center;
-                                color: #060B07;
-                                top: 8px;
-                                right: 19px;
-
-                            }
-                        }
-                    }
-                }
-
-                #div3 {
-                    .div4 {
-                        .c1 {
-                            width: 85%;
-                            background-repeat: no-repeat;
-                            width: 392px;
-                            height: 364px;
-
-                            #cardBody1 {
-                                .cardtext1 {
-                                    margin: 17rem 0px 10px 0px;
-
-                                    .card_button {
-                                        a {
-                                            .btn3 {
-                                                color: var(--white-color);
-                                                // opacity: .4;
-                                                background-color: var(--primary-color);
-                                                border-color: var(--primary-color);
-                                                padding: 9px 28px;
-                                                border-radius: 10px;
-
-
-                                                &:hover {
-                                                    background-color: transparent;
-                                                    color: var(--white-color);
-                                                    border-color: var(--white-color);
-
-                                                }
-
-                                                span {
-                                                    font-style: normal;
-                                                    font-weight: 500;
-                                                    font-size: 16px;
-                                                    // line-height: 37px;
-                                                    display: flex;
-                                                    align-items: center;
-                                                    color: #060B07;
-                                                }
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-
-        #ytvideo {
-            margin: 6rem 0rem 0px 0rem;
-            background-color: #E9F2D2;
-
-            #div1 {
-                #div2 {
-                    #img-div {
-                        .img__para {
-                            img {
-                                position: relative;
-                                left: 0px;
-                                // top: 32px;
-                            }
-
-                            p {
-                                position: relative;
-                                font-style: normal;
-                                font-weight: 500;
-                                font-size: 16px;
-                                line-height: 24px;
-                                display: flex;
-                                align-items: center;
-                                color: #060B07;
-                                top: 8px;
-                                right: 19px;
-
-                            }
-                        }
-                    }
-                }
-            }
-        }
-
-        #bannerbg {
-            padding: 6rem 0rem 6rem 0rem;
-            background-image: url(../img/bg.png);
-            background-repeat: no-repeat;
-            background-size: cover;
-
-            #div1 {
-                #div2 {
-                    #div3 {
-                        .h2 {
-                            font-style: normal;
-                            font-weight: 700;
-                            font-size: 31.25px;
-                            line-height: 47px;
-                            display: flex;
-                            align-items: center;
-                            color: #060B07;
-                        }
-
-                        p {
-                            font-style: normal;
-                            font-weight: 400;
-                            font-size: 16px;
-                            line-height: 24px;
-                            color: #060B07;
-                            padding: 28px 122px 31px 0px;
-
-                            span {
-                                font-style: normal;
-                                font-weight: 700;
-                                font-size: 16px;
-                                line-height: 24px;
-                                color: #FFFFFF;
-                            }
-
-                        }
-
-                        .banner_button {
-                            a {
                                 .btn3 {
-                                    color: var(--primary-color);
+                                    color: var(--white-color);
                                     // opacity: .4;
-                                    background-color: var(--dark-color);
+                                    background-color: var(--primary-color);
                                     border-color: var(--primary-color);
-                                    padding: 9px 59px;
-                                    border-radius: 5px;
-
+                                    width: 25%;
+                                    padding: 9px 18px;
 
                                     &:hover {
                                         background-color: transparent;
-                                        color: var(--white-color);
-                                        border-color: var(--white-color);
+                                        color: #4C7CDE;
+                                        border-color: var(--primary-color);
                                     }
 
                                     span {
@@ -3595,14 +3262,9 @@ img {
                                         font-weight: 500;
                                         font-size: 16px;
                                         line-height: 22px;
-                                        /* identical to box height, or 138% */
-
                                         display: flex;
-                                        align-items: center;
-                                        text-align: center;
+                                        justify-content: center;
                                         letter-spacing: 1px;
-
-                                        color: #FFFFFF;
                                     }
                                 }
                             }
@@ -3612,383 +3274,744 @@ img {
             }
         }
 
-        #carousel {
-            #section2 {
-                .r2 {
-                    .div1 {
-                        .card-text1 {
-                            padding: 10px;
+        // #services {
+        //     margin: 6rem 7rem 0 7rem;
 
-                            .maindiv {
-                                .div2 {
-                                    div {
-                                        padding: 40px 0 59px 97px;
+        //     #div1 {
+        //         #div2 {
+        //             #img-div {
+        //                 .img__para {
+        //                     img {
+        //                         position: relative;
+        //                         left: 0px;
+        //                         // top: 32px;
+        //                     }
 
-                                        h2 {
-                                            font-style: normal;
-                                            font-weight: 600;
-                                            font-size: 20px;
-                                            line-height: 30px;
-                                            display: flex;
-                                            align-items: center;
-                                            color: #000000;
-                                        }
+        //                     p {
+        //                         position: relative;
+        //                         font-style: normal;
+        //                         font-weight: 500;
+        //                         font-size: 16px;
+        //                         line-height: 24px;
+        //                         display: flex;
+        //                         align-items: center;
+        //                         color: #060B07;
+        //                         top: 8px;
+        //                         right: 19px;
 
-                                        p {
-                                            font-style: normal;
-                                            font-weight: 400;
-                                            font-size: 16px;
-                                            line-height: 24px;
-                                            display: flex;
-                                            align-items: center;
+        //                     }
+        //                 }
+        //             }
+        //         }
 
-                                            color: #000000;
-                                            padding: 24px 55px 0 0px;
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
+        //         #div3 {
+        //             .div4 {
+        //                 .c1 {
+        //                     width: 85%;
+        //                     background-repeat: no-repeat;
 
-        #mobile-app {
-            margin: 0rem 7rem 0 7rem;
+        //                     #cardBody1 {
+        //                         .card-text1 {
+        //                             img {
+        //                                 width: 168.85px;
+        //                                 height: 91.78px;
+        //                             }
+        //                         }
 
-            #div1 {
-                #div2 {
-                    #img-div {
-                        .img__para {
-                            img {
-                                position: relative;
-                                left: 0px;
-                                top: 32px;
-                            }
+        //                         .cardtext1 {
+        //                             margin: 30px 15px 20px 15px;
 
-                            p {
-                                position: relative;
-                                font-style: normal;
-                                font-weight: 500;
-                                font-size: 16px;
-                                line-height: 24px;
-                                display: flex;
-                                align-items: center;
-                                color: #060B07;
-                                left: 20px;
-                            }
-                        }
+        //                             h2 {
+        //                                 font-style: normal;
+        //                                 font-weight: 600;
+        //                                 font-size: 25px;
+        //                                 line-height: 38px;
+        //                                 text-align: center;
+        //                                 color: #060B07;
+        //                             }
 
-                        .content {
-                            h2 {
-                                font-family: 'Poppins';
-                                font-style: normal;
-                                font-weight: 600;
-                                font-size: 31.25px;
-                                line-height: 47px;
-                                display: flex;
-                                align-items: center;
-                                color: #060B07;
-                            }
-                        }
+        //                             p {
+        //                                 font-style: normal;
+        //                                 font-weight: 400;
+        //                                 font-size: 16px;
+        //                                 line-height: 24px;
+        //                                 text-align: center;
+        //                                 color: #383C39;
+        //                                 margin: 24px 6px;
+        //                             }
 
-                        .para {
-                            p {
-                                font-style: normal;
-                                font-weight: 400;
-                                font-size: 16px;
-                                line-height: 24px;
-                                color: #6A6D6A;
-                                padding: 28px 31px 0 0;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-
-        #blogs {
-            margin: 6rem 7rem 6rem 7rem;
-
-            #div1 {
-                #div2 {
-                    #img-div {
-                        .img__para {
-                            img {
-                                position: relative;
-                                left: 0px;
-                                // top: 32px;
-                            }
-
-                            p {
-                                position: relative;
-                                font-style: normal;
-                                font-weight: 500;
-                                font-size: 16px;
-                                line-height: 24px;
-                                display: flex;
-                                align-items: center;
-                                color: #060B07;
-                                top: 8px;
-                                right: 19px;
-
-                            }
-                        }
-                    }
-                }
-
-                #div3 {
-                    margin-top: 41px;
-
-                    .div4 {
-                        div {
-                            margin: 40px 0;
-                        }
-                    }
-
-                    #img-div {
-                        margin: 74px 0;
-
-                        .img__para {
-                            img {
-                                position: relative;
-                                left: 0px;
-                                top: 32px;
-                            }
-
-                            p {
-                                position: relative;
-                                font-style: normal;
-                                font-weight: 500;
-                                font-size: 16px;
-                                line-height: 24px;
-                                display: flex;
-                                align-items: center;
-                                color: #060B07;
-                                left: 20px;
-                            }
-                        }
-
-                        .content {
-                            h2 {
-                                font-family: 'Poppins';
-                                font-style: normal;
-                                font-weight: 600;
-                                font-size: 31.25px;
-                                line-height: 47px;
-                                display: flex;
-                                align-items: center;
-                                color: #060B07;
-                            }
-                        }
-
-                        .para {
-                            h2 {
-                                font-style: normal;
-                                font-weight: 600;
-                                font-size: 20px;
-                                line-height: 30px;
-                                display: flex;
-                                align-items: center;
-
-                                color: #000000;
-                            }
-
-                            p {
-                                font-style: normal;
-                                font-weight: 400;
-                                font-size: 16px;
-                                line-height: 24px;
-                                color: #6A6D6A;
-                                padding: 28px 31px 0 0;
-                            }
-                        }
-                    }
-                }
-
-                #div5 {
-                    margin: -28px;
-
-                    .div4 {
-                        .c1 {
-                            #cardBody1 {
-                                .cardtext1 {
-                                    h2 {
-                                        font-style: normal;
-                                        font-weight: 600;
-                                        font-size: 20px;
-                                        line-height: 30px;
-                                        display: flex;
-                                        align-items: center;
-                                        color: #000000;
-                                        margin: 45px 0 30px 0;
-                                    }
-
-                                    p {
-                                        font-style: normal;
-                                        font-weight: 400;
-                                        font-size: 16px;
-                                        line-height: 24px;
-
-                                        color: #000000;
-                                    }
-
-                                    .admin-div {
-                                        .div13 {
-                                            margin: -12px 0px;
-
-                                            h2 {
-                                                font-style: normal;
-                                                font-weight: 600;
-                                                font-size: 16px;
-                                                line-height: 2px;
-                                                display: flex;
-                                                align-items: center;
-                                                color: #060B07;
-                                                margin: 23px 0;
-                                            }
-
-                                            p {
-                                                font-style: normal;
-                                                font-weight: 500;
-                                                font-size: 12px;
-                                                line-height: 18px;
-                                                display: flex;
-                                                align-items: center;
-                                                color: #9B9D9C;
-                                                margin: -13px 0px;
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-
-            }
-        }
-
-        #contact {
-            padding: 6rem 7rem 6rem 7rem;
-            background-image: url(../img/Maskgroup11.png);
-            background-repeat: no-repeat;
-            background-size: cover;
-
-            #div1 {
-                #div2 {
-                    .div4 {
-                        h2 {
-                            font-style: normal;
-                            font-weight: 600;
-                            font-size: 25px;
-                            line-height: 38px;
-                            color: #060B07;
-                            padding: 0 12px 0 0;
-                        }
-
-                        .form {
-                            mix-blend-mode: normal;
-                            backdrop-filter: blur(5px);
-                            border-radius: 16px;
-
-                            form {
-                                label {
-                                    position: relative;
-                                    top: 16px;
-                                    color: black;
-                                    background-color: white;
-                                    padding: 3px 4px;
-                                    font-style: normal;
-                                    font-weight: 500;
-                                    font-size: 10.24px;
-                                    line-height: 15px;
-                                    display: flex;
-                                    align-items: center;
-                                    color: #6A6D6A;
-                                }
-
-                                textarea {
-                                    position: relative;
-                                    color: black;
-                                    background-color: white;
-                                    padding: 3px 4px;
-                                    font-style: normal;
-                                    font-size: 15.24px;
-                                    line-height: 15px;
-                                    display: flex;
-                                    align-items: center;
-                                    color: #6A6D6A;
-                                    border: 0;
-                                }
-
-                                .img-form1 {
-                                    position: absolute;
-                                    left: 87.1%;
-                                    right: 3.95%;
-                                    top: 19%;
-                                    bottom: 34.96%;
-                                }
-
-                                .img-form {
-                                    position: absolute;
-                                    left: 87.1%;
-                                    right: 3.95%;
-                                    top: 39.38%;
-                                    bottom: 34.96%;
-                                }
-
-                                input {
-                                    border: none;
-                                    height: 41px;
-                                    border-radius: 0;
-                                    padding: 3px 4px;
-                                    font-style: normal;
-                                    font-size: 15.24px;
-                                }
-
-                                .button {
-                                    .sec1_button {
-                                        .out_btn2 {
-                                            .btn2 {
-                                                color: var(--primary-color);
-                                                // opacity: .4;
-                                                background-color: black;
-                                                border-color: black;
-                                                padding: 9px 28px;
+        //                             .card_button {
+        //                                 a {
+        //                                     .btn3 {
+        //                                         color: var(--white-color);
+        //                                         // opacity: .4;
+        //                                         background-color: var(--primary-color);
+        //                                         border-color: var(--primary-color);
+        //                                         padding: 9px 28px;
 
 
-                                                &:hover {
-                                                    background-color: transparent;
-                                                    color: var(--white-color);
-                                                    border-color: var(--white-color);
-                                                }
+        //                                         &:hover {
+        //                                             background-color: transparent;
+        //                                             color: var(--primary-color);
+        //                                             border-color: var(--primary-color);
+        //                                         }
 
-                                                span {
-                                                    font-style: normal;
-                                                    font-weight: 500;
-                                                    font-size: 16px;
-                                                    line-height: 22px;
-                                                    /* identical to box height, or 138% */
+        //                                         span {
+        //                                             font-style: normal;
+        //                                             font-weight: 500;
+        //                                             font-size: 16px;
+        //                                             line-height: 22px;
+        //                                             /* identical to box height, or 138% */
 
-                                                    display: flex;
-                                                    align-items: center;
-                                                    text-align: center;
-                                                    letter-spacing: 1px;
+        //                                             display: flex;
+        //                                             align-items: center;
+        //                                             text-align: center;
+        //                                             letter-spacing: 1px;
+        //                                         }
+        //                                     }
+        //                                 }
+        //                             }
+        //                         }
+        //                     }
+        //                 }
 
-                                                    color: #FFFFFF;
-                                                }
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
+        //                 .c2 {
+        //                     width: 85%;
+        //                     background-repeat: no-repeat;
+
+        //                     #cardBody1 {
+        //                         .card-text1 {
+        //                             img {
+        //                                 width: 106.35px;
+        //                                 height: 91.78px;
+        //                             }
+        //                         }
+
+        //                         .cardtext1 {
+        //                             margin: 30px 15px 20px 15px;
+
+        //                             h2 {
+        //                                 font-style: normal;
+        //                                 font-weight: 600;
+        //                                 font-size: 25px;
+        //                                 line-height: 38px;
+        //                                 text-align: center;
+        //                                 color: #060B07;
+        //                             }
+
+        //                             p {
+        //                                 font-style: normal;
+        //                                 font-weight: 400;
+        //                                 font-size: 16px;
+        //                                 line-height: 24px;
+        //                                 text-align: center;
+        //                                 color: #383C39;
+        //                                 margin: 24px 0;
+        //                             }
+
+        //                             .card_button {
+        //                                 a {
+        //                                     .btn3 {
+        //                                         color: var(--primary-color);
+        //                                         background-color: white;
+        //                                         border-color: var(--White-color);
+        //                                         padding: 9px 28px;
+
+        //                                         &:hover {
+        //                                             background-color: transparent;
+        //                                             color: var(--white-color);
+        //                                             border-color: var(--white-color);
+        //                                         }
+
+        //                                         span {
+        //                                             font-style: normal;
+        //                                             font-weight: 500;
+        //                                             font-size: 16px;
+        //                                             line-height: 22px;
+        //                                             /* identical to box height, or 138% */
+
+        //                                             display: flex;
+        //                                             align-items: center;
+        //                                             text-align: center;
+        //                                             letter-spacing: 1px;
+        //                                         }
+        //                                     }
+        //                                 }
+        //                             }
+        //                         }
+        //                     }
+        //                 }
+        //             }
+        //         }
+        //     }
+        // }
+
+        // #locations {
+        //     margin: 6rem 7rem 0 7rem;
+
+        //     #div1 {
+        //         #div2 {
+        //             #img-div {
+        //                 .img__para {
+        //                     img {
+        //                         position: relative;
+        //                         left: 0px;
+        //                         // top: 32px;
+        //                     }
+
+        //                     p {
+        //                         position: relative;
+        //                         font-style: normal;
+        //                         font-weight: 500;
+        //                         font-size: 16px;
+        //                         line-height: 24px;
+        //                         display: flex;
+        //                         align-items: center;
+        //                         color: #060B07;
+        //                         top: 8px;
+        //                         right: 19px;
+
+        //                     }
+        //                 }
+        //             }
+        //         }
+
+        //         #div3 {
+        //             .div4 {
+        //                 .c1 {
+        //                     width: 85%;
+        //                     background-repeat: no-repeat;
+        //                     width: 392px;
+        //                     height: 364px;
+
+        //                     #cardBody1 {
+        //                         .cardtext1 {
+        //                             margin: 17rem 0px 10px 0px;
+
+        //                             .card_button {
+        //                                 a {
+        //                                     .btn3 {
+        //                                         color: var(--white-color);
+        //                                         // opacity: .4;
+        //                                         background-color: var(--primary-color);
+        //                                         border-color: var(--primary-color);
+        //                                         padding: 9px 28px;
+        //                                         border-radius: 10px;
+
+
+        //                                         &:hover {
+        //                                             background-color: transparent;
+        //                                             color: var(--white-color);
+        //                                             border-color: var(--white-color);
+
+        //                                         }
+
+        //                                         span {
+        //                                             font-style: normal;
+        //                                             font-weight: 500;
+        //                                             font-size: 16px;
+        //                                             // line-height: 37px;
+        //                                             display: flex;
+        //                                             align-items: center;
+        //                                             color: #060B07;
+        //                                         }
+        //                                     }
+        //                                 }
+        //                             }
+        //                         }
+        //                     }
+        //                 }
+        //             }
+        //         }
+        //     }
+        // }
+
+        // #ytvideo {
+        //     margin: 6rem 0rem 0px 0rem;
+        //     background-color: #E9F2D2;
+
+        //     #div1 {
+        //         #div2 {
+        //             #img-div {
+        //                 .img__para {
+        //                     img {
+        //                         position: relative;
+        //                         left: 0px;
+        //                         // top: 32px;
+        //                     }
+
+        //                     p {
+        //                         position: relative;
+        //                         font-style: normal;
+        //                         font-weight: 500;
+        //                         font-size: 16px;
+        //                         line-height: 24px;
+        //                         display: flex;
+        //                         align-items: center;
+        //                         color: #060B07;
+        //                         top: 8px;
+        //                         right: 19px;
+
+        //                     }
+        //                 }
+        //             }
+        //         }
+        //     }
+        // }
+
+        // #bannerbg {
+        //     padding: 6rem 0rem 6rem 0rem;
+        //     background-image: url(../img/bg.png);
+        //     background-repeat: no-repeat;
+        //     background-size: cover;
+
+        //     #div1 {
+        //         #div2 {
+        //             #div3 {
+        //                 .h2 {
+        //                     font-style: normal;
+        //                     font-weight: 700;
+        //                     font-size: 31.25px;
+        //                     line-height: 47px;
+        //                     display: flex;
+        //                     align-items: center;
+        //                     color: #060B07;
+        //                 }
+
+        //                 p {
+        //                     font-style: normal;
+        //                     font-weight: 400;
+        //                     font-size: 16px;
+        //                     line-height: 24px;
+        //                     color: #060B07;
+        //                     padding: 28px 122px 31px 0px;
+
+        //                     span {
+        //                         font-style: normal;
+        //                         font-weight: 700;
+        //                         font-size: 16px;
+        //                         line-height: 24px;
+        //                         color: #FFFFFF;
+        //                     }
+
+        //                 }
+
+        //                 .banner_button {
+        //                     a {
+        //                         .btn3 {
+        //                             color: var(--primary-color);
+        //                             // opacity: .4;
+        //                             background-color: var(--dark-color);
+        //                             border-color: var(--primary-color);
+        //                             padding: 9px 59px;
+        //                             border-radius: 5px;
+
+
+        //                             &:hover {
+        //                                 background-color: transparent;
+        //                                 color: var(--white-color);
+        //                                 border-color: var(--white-color);
+        //                             }
+
+        //                             span {
+        //                                 font-style: normal;
+        //                                 font-weight: 500;
+        //                                 font-size: 16px;
+        //                                 line-height: 22px;
+        //                                 /* identical to box height, or 138% */
+
+        //                                 display: flex;
+        //                                 align-items: center;
+        //                                 text-align: center;
+        //                                 letter-spacing: 1px;
+
+        //                                 color: #FFFFFF;
+        //                             }
+        //                         }
+        //                     }
+        //                 }
+        //             }
+        //         }
+        //     }
+        // }
+
+        // #carousel {
+        //     #section2 {
+        //         .r2 {
+        //             .div1 {
+        //                 .card-text1 {
+        //                     padding: 10px;
+
+        //                     .maindiv {
+        //                         .div2 {
+        //                             div {
+        //                                 padding: 40px 0 59px 97px;
+
+        //                                 h2 {
+        //                                     font-style: normal;
+        //                                     font-weight: 600;
+        //                                     font-size: 20px;
+        //                                     line-height: 30px;
+        //                                     display: flex;
+        //                                     align-items: center;
+        //                                     color: #000000;
+        //                                 }
+
+        //                                 p {
+        //                                     font-style: normal;
+        //                                     font-weight: 400;
+        //                                     font-size: 16px;
+        //                                     line-height: 24px;
+        //                                     display: flex;
+        //                                     align-items: center;
+
+        //                                     color: #000000;
+        //                                     padding: 24px 55px 0 0px;
+        //                                 }
+        //                             }
+        //                         }
+        //                     }
+        //                 }
+        //             }
+        //         }
+        //     }
+        // }
+
+        // #mobile-app {
+        //     margin: 0rem 7rem 0 7rem;
+
+        //     #div1 {
+        //         #div2 {
+        //             #img-div {
+        //                 .img__para {
+        //                     img {
+        //                         position: relative;
+        //                         left: 0px;
+        //                         top: 32px;
+        //                     }
+
+        //                     p {
+        //                         position: relative;
+        //                         font-style: normal;
+        //                         font-weight: 500;
+        //                         font-size: 16px;
+        //                         line-height: 24px;
+        //                         display: flex;
+        //                         align-items: center;
+        //                         color: #060B07;
+        //                         left: 20px;
+        //                     }
+        //                 }
+
+        //                 .content {
+        //                     h2 {
+        //                         font-family: 'Poppins';
+        //                         font-style: normal;
+        //                         font-weight: 600;
+        //                         font-size: 31.25px;
+        //                         line-height: 47px;
+        //                         display: flex;
+        //                         align-items: center;
+        //                         color: #060B07;
+        //                     }
+        //                 }
+
+        //                 .para {
+        //                     p {
+        //                         font-style: normal;
+        //                         font-weight: 400;
+        //                         font-size: 16px;
+        //                         line-height: 24px;
+        //                         color: #6A6D6A;
+        //                         padding: 28px 31px 0 0;
+        //                     }
+        //                 }
+        //             }
+        //         }
+        //     }
+        // }
+
+        // #blogs {
+        //     margin: 6rem 7rem 6rem 7rem;
+
+        //     #div1 {
+        //         #div2 {
+        //             #img-div {
+        //                 .img__para {
+        //                     img {
+        //                         position: relative;
+        //                         left: 0px;
+        //                         // top: 32px;
+        //                     }
+
+        //                     p {
+        //                         position: relative;
+        //                         font-style: normal;
+        //                         font-weight: 500;
+        //                         font-size: 16px;
+        //                         line-height: 24px;
+        //                         display: flex;
+        //                         align-items: center;
+        //                         color: #060B07;
+        //                         top: 8px;
+        //                         right: 19px;
+
+        //                     }
+        //                 }
+        //             }
+        //         }
+
+        //         #div3 {
+        //             margin-top: 41px;
+
+        //             .div4 {
+        //                 div {
+        //                     margin: 40px 0;
+        //                 }
+        //             }
+
+        //             #img-div {
+        //                 margin: 74px 0;
+
+        //                 .img__para {
+        //                     img {
+        //                         position: relative;
+        //                         left: 0px;
+        //                         top: 32px;
+        //                     }
+
+        //                     p {
+        //                         position: relative;
+        //                         font-style: normal;
+        //                         font-weight: 500;
+        //                         font-size: 16px;
+        //                         line-height: 24px;
+        //                         display: flex;
+        //                         align-items: center;
+        //                         color: #060B07;
+        //                         left: 20px;
+        //                     }
+        //                 }
+
+        //                 .content {
+        //                     h2 {
+        //                         font-family: 'Poppins';
+        //                         font-style: normal;
+        //                         font-weight: 600;
+        //                         font-size: 31.25px;
+        //                         line-height: 47px;
+        //                         display: flex;
+        //                         align-items: center;
+        //                         color: #060B07;
+        //                     }
+        //                 }
+
+        //                 .para {
+        //                     h2 {
+        //                         font-style: normal;
+        //                         font-weight: 600;
+        //                         font-size: 20px;
+        //                         line-height: 30px;
+        //                         display: flex;
+        //                         align-items: center;
+
+        //                         color: #000000;
+        //                     }
+
+        //                     p {
+        //                         font-style: normal;
+        //                         font-weight: 400;
+        //                         font-size: 16px;
+        //                         line-height: 24px;
+        //                         color: #6A6D6A;
+        //                         padding: 28px 31px 0 0;
+        //                     }
+        //                 }
+        //             }
+        //         }
+
+        //         #div5 {
+        //             margin: -28px;
+
+        //             .div4 {
+        //                 .c1 {
+        //                     #cardBody1 {
+        //                         .cardtext1 {
+        //                             h2 {
+        //                                 font-style: normal;
+        //                                 font-weight: 600;
+        //                                 font-size: 20px;
+        //                                 line-height: 30px;
+        //                                 display: flex;
+        //                                 align-items: center;
+        //                                 color: #000000;
+        //                                 margin: 45px 0 30px 0;
+        //                             }
+
+        //                             p {
+        //                                 font-style: normal;
+        //                                 font-weight: 400;
+        //                                 font-size: 16px;
+        //                                 line-height: 24px;
+
+        //                                 color: #000000;
+        //                             }
+
+        //                             .admin-div {
+        //                                 .div13 {
+        //                                     margin: -12px 0px;
+
+        //                                     h2 {
+        //                                         font-style: normal;
+        //                                         font-weight: 600;
+        //                                         font-size: 16px;
+        //                                         line-height: 2px;
+        //                                         display: flex;
+        //                                         align-items: center;
+        //                                         color: #060B07;
+        //                                         margin: 23px 0;
+        //                                     }
+
+        //                                     p {
+        //                                         font-style: normal;
+        //                                         font-weight: 500;
+        //                                         font-size: 12px;
+        //                                         line-height: 18px;
+        //                                         display: flex;
+        //                                         align-items: center;
+        //                                         color: #9B9D9C;
+        //                                         margin: -13px 0px;
+        //                                     }
+        //                                 }
+        //                             }
+        //                         }
+        //                     }
+        //                 }
+        //             }
+        //         }
+
+        //     }
+        // }
+
+        // #contact {
+        //     padding: 6rem 7rem 6rem 7rem;
+        //     background-image: url(../img/Maskgroup11.png);
+        //     background-repeat: no-repeat;
+        //     background-size: cover;
+
+        //     #div1 {
+        //         #div2 {
+        //             .div4 {
+        //                 h2 {
+        //                     font-style: normal;
+        //                     font-weight: 600;
+        //                     font-size: 25px;
+        //                     line-height: 38px;
+        //                     color: #060B07;
+        //                     padding: 0 12px 0 0;
+        //                 }
+
+        //                 .form {
+        //                     mix-blend-mode: normal;
+        //                     backdrop-filter: blur(5px);
+        //                     border-radius: 16px;
+
+        //                     form {
+        //                         label {
+        //                             position: relative;
+        //                             top: 16px;
+        //                             color: black;
+        //                             background-color: white;
+        //                             padding: 3px 4px;
+        //                             font-style: normal;
+        //                             font-weight: 500;
+        //                             font-size: 10.24px;
+        //                             line-height: 15px;
+        //                             display: flex;
+        //                             align-items: center;
+        //                             color: #6A6D6A;
+        //                         }
+
+        //                         textarea {
+        //                             position: relative;
+        //                             color: black;
+        //                             background-color: white;
+        //                             padding: 3px 4px;
+        //                             font-style: normal;
+        //                             font-size: 15.24px;
+        //                             line-height: 15px;
+        //                             display: flex;
+        //                             align-items: center;
+        //                             color: #6A6D6A;
+        //                             border: 0;
+        //                         }
+
+        //                         .img-form1 {
+        //                             position: absolute;
+        //                             left: 87.1%;
+        //                             right: 3.95%;
+        //                             top: 19%;
+        //                             bottom: 34.96%;
+        //                         }
+
+        //                         .img-form {
+        //                             position: absolute;
+        //                             left: 87.1%;
+        //                             right: 3.95%;
+        //                             top: 39.38%;
+        //                             bottom: 34.96%;
+        //                         }
+
+        //                         input {
+        //                             border: none;
+        //                             height: 41px;
+        //                             border-radius: 0;
+        //                             padding: 3px 4px;
+        //                             font-style: normal;
+        //                             font-size: 15.24px;
+        //                         }
+
+        //                         .button {
+        //                             .sec1_button {
+        //                                 .out_btn2 {
+        //                                     .btn2 {
+        //                                         color: var(--primary-color);
+        //                                         // opacity: .4;
+        //                                         background-color: black;
+        //                                         border-color: black;
+        //                                         padding: 9px 28px;
+
+
+        //                                         &:hover {
+        //                                             background-color: transparent;
+        //                                             color: var(--white-color);
+        //                                             border-color: var(--white-color);
+        //                                         }
+
+        //                                         span {
+        //                                             font-style: normal;
+        //                                             font-weight: 500;
+        //                                             font-size: 16px;
+        //                                             line-height: 22px;
+        //                                             /* identical to box height, or 138% */
+
+        //                                             display: flex;
+        //                                             align-items: center;
+        //                                             text-align: center;
+        //                                             letter-spacing: 1px;
+
+        //                                             color: #FFFFFF;
+        //                                         }
+        //                                     }
+        //                                 }
+        //                             }
+        //                         }
+        //                     }
+        //                 }
+        //             }
+        //         }
+        //     }
+        // }
     }
 
     .services {

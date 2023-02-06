@@ -2327,23 +2327,10 @@ img {
     padding: 33px;
   }
   main #more__about {
-    margin: 6rem 7rem 0 7rem;
+    margin: 22rem 7rem 0 7rem;
   }
-  main #more__about #div1 #div2 #img-div .img__para img {
-    position: relative;
-    left: 0px;
-    top: 32px;
-  }
-  main #more__about #div1 #div2 #img-div .img__para p {
-    position: relative;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    color: #060B07;
-    left: 20px;
+  main #more__about #div1 #div2 #img-div {
+    padding: 8rem 0px;
   }
   main #more__about #div1 #div2 #img-div .content h2 {
     font-family: "Poppins";
@@ -2355,6 +2342,17 @@ img {
     align-items: center;
     color: #060B07;
   }
+  main #more__about #div1 #div2 #img-div .content p {
+    position: relative;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #060B07;
+    left: 20px;
+  }
   main #more__about #div1 #div2 #img-div .para p {
     font-style: normal;
     font-weight: 400;
@@ -2363,514 +2361,29 @@ img {
     color: #6A6D6A;
     padding: 28px 31px 0 0;
   }
-  main #services {
-    margin: 6rem 7rem 0 7rem;
+  main #more__about #div1 #div2 #img-div .para .about_button {
+    margin: 46px 0 46px 0;
   }
-  main #services #div1 #div2 #img-div .img__para img {
-    position: relative;
-    left: 0px;
-  }
-  main #services #div1 #div2 #img-div .img__para p {
-    position: relative;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    color: #060B07;
-    top: 8px;
-    right: 19px;
-  }
-  main #services #div1 #div3 .div4 .c1 {
-    width: 85%;
-    background-repeat: no-repeat;
-  }
-  main #services #div1 #div3 .div4 .c1 #cardBody1 .card-text1 img {
-    width: 168.85px;
-    height: 91.78px;
-  }
-  main #services #div1 #div3 .div4 .c1 #cardBody1 .cardtext1 {
-    margin: 30px 15px 20px 15px;
-  }
-  main #services #div1 #div3 .div4 .c1 #cardBody1 .cardtext1 h2 {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 25px;
-    line-height: 38px;
-    text-align: center;
-    color: #060B07;
-  }
-  main #services #div1 #div3 .div4 .c1 #cardBody1 .cardtext1 p {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-    color: #383C39;
-    margin: 24px 6px;
-  }
-  main #services #div1 #div3 .div4 .c1 #cardBody1 .cardtext1 .card_button a .btn3 {
+  main #more__about #div1 #div2 #img-div .para .about_button .btn3 {
     color: var(--white-color);
     background-color: var(--primary-color);
     border-color: var(--primary-color);
-    padding: 9px 28px;
+    width: 25%;
+    padding: 9px 18px;
   }
-  main #services #div1 #div3 .div4 .c1 #cardBody1 .cardtext1 .card_button a .btn3:hover {
+  main #more__about #div1 #div2 #img-div .para .about_button .btn3:hover {
     background-color: transparent;
-    color: var(--primary-color);
+    color: #4C7CDE;
     border-color: var(--primary-color);
   }
-  main #services #div1 #div3 .div4 .c1 #cardBody1 .cardtext1 .card_button a .btn3 span {
+  main #more__about #div1 #div2 #img-div .para .about_button .btn3 span {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 22px;
-    /* identical to box height, or 138% */
     display: flex;
-    align-items: center;
-    text-align: center;
+    justify-content: center;
     letter-spacing: 1px;
-  }
-  main #services #div1 #div3 .div4 .c2 {
-    width: 85%;
-    background-repeat: no-repeat;
-  }
-  main #services #div1 #div3 .div4 .c2 #cardBody1 .card-text1 img {
-    width: 106.35px;
-    height: 91.78px;
-  }
-  main #services #div1 #div3 .div4 .c2 #cardBody1 .cardtext1 {
-    margin: 30px 15px 20px 15px;
-  }
-  main #services #div1 #div3 .div4 .c2 #cardBody1 .cardtext1 h2 {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 25px;
-    line-height: 38px;
-    text-align: center;
-    color: #060B07;
-  }
-  main #services #div1 #div3 .div4 .c2 #cardBody1 .cardtext1 p {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-    color: #383C39;
-    margin: 24px 0;
-  }
-  main #services #div1 #div3 .div4 .c2 #cardBody1 .cardtext1 .card_button a .btn3 {
-    color: var(--primary-color);
-    background-color: white;
-    border-color: var(--White-color);
-    padding: 9px 28px;
-  }
-  main #services #div1 #div3 .div4 .c2 #cardBody1 .cardtext1 .card_button a .btn3:hover {
-    background-color: transparent;
-    color: var(--white-color);
-    border-color: var(--white-color);
-  }
-  main #services #div1 #div3 .div4 .c2 #cardBody1 .cardtext1 .card_button a .btn3 span {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 22px;
-    /* identical to box height, or 138% */
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 1px;
-  }
-  main #locations {
-    margin: 6rem 7rem 0 7rem;
-  }
-  main #locations #div1 #div2 #img-div .img__para img {
-    position: relative;
-    left: 0px;
-  }
-  main #locations #div1 #div2 #img-div .img__para p {
-    position: relative;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    color: #060B07;
-    top: 8px;
-    right: 19px;
-  }
-  main #locations #div1 #div3 .div4 .c1 {
-    width: 85%;
-    background-repeat: no-repeat;
-    width: 392px;
-    height: 364px;
-  }
-  main #locations #div1 #div3 .div4 .c1 #cardBody1 .cardtext1 {
-    margin: 17rem 0px 10px 0px;
-  }
-  main #locations #div1 #div3 .div4 .c1 #cardBody1 .cardtext1 .card_button a .btn3 {
-    color: var(--white-color);
-    background-color: var(--primary-color);
-    border-color: var(--primary-color);
-    padding: 9px 28px;
-    border-radius: 10px;
-  }
-  main #locations #div1 #div3 .div4 .c1 #cardBody1 .cardtext1 .card_button a .btn3:hover {
-    background-color: transparent;
-    color: var(--white-color);
-    border-color: var(--white-color);
-  }
-  main #locations #div1 #div3 .div4 .c1 #cardBody1 .cardtext1 .card_button a .btn3 span {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    display: flex;
-    align-items: center;
-    color: #060B07;
-  }
-  main #ytvideo {
-    margin: 6rem 0rem 0px 0rem;
-    background-color: #E9F2D2;
-  }
-  main #ytvideo #div1 #div2 #img-div .img__para img {
-    position: relative;
-    left: 0px;
-  }
-  main #ytvideo #div1 #div2 #img-div .img__para p {
-    position: relative;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    color: #060B07;
-    top: 8px;
-    right: 19px;
-  }
-  main #bannerbg {
-    padding: 6rem 0rem 6rem 0rem;
-    background-image: url(../img/bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  main #bannerbg #div1 #div2 #div3 .h2 {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 31.25px;
-    line-height: 47px;
-    display: flex;
-    align-items: center;
-    color: #060B07;
-  }
-  main #bannerbg #div1 #div2 #div3 p {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #060B07;
-    padding: 28px 122px 31px 0px;
-  }
-  main #bannerbg #div1 #div2 #div3 p span {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
-    color: #FFFFFF;
-  }
-  main #bannerbg #div1 #div2 #div3 .banner_button a .btn3 {
-    color: var(--primary-color);
-    background-color: var(--dark-color);
-    border-color: var(--primary-color);
-    padding: 9px 59px;
-    border-radius: 5px;
-  }
-  main #bannerbg #div1 #div2 #div3 .banner_button a .btn3:hover {
-    background-color: transparent;
-    color: var(--white-color);
-    border-color: var(--white-color);
-  }
-  main #bannerbg #div1 #div2 #div3 .banner_button a .btn3 span {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 22px;
-    /* identical to box height, or 138% */
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 1px;
-    color: #FFFFFF;
-  }
-  main #carousel #section2 .r2 .div1 .card-text1 {
-    padding: 10px;
-  }
-  main #carousel #section2 .r2 .div1 .card-text1 .maindiv .div2 div {
-    padding: 40px 0 59px 97px;
-  }
-  main #carousel #section2 .r2 .div1 .card-text1 .maindiv .div2 div h2 {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 30px;
-    display: flex;
-    align-items: center;
-    color: #000000;
-  }
-  main #carousel #section2 .r2 .div1 .card-text1 .maindiv .div2 div p {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    color: #000000;
-    padding: 24px 55px 0 0px;
-  }
-  main #mobile-app {
-    margin: 0rem 7rem 0 7rem;
-  }
-  main #mobile-app #div1 #div2 #img-div .img__para img {
-    position: relative;
-    left: 0px;
-    top: 32px;
-  }
-  main #mobile-app #div1 #div2 #img-div .img__para p {
-    position: relative;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    color: #060B07;
-    left: 20px;
-  }
-  main #mobile-app #div1 #div2 #img-div .content h2 {
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 31.25px;
-    line-height: 47px;
-    display: flex;
-    align-items: center;
-    color: #060B07;
-  }
-  main #mobile-app #div1 #div2 #img-div .para p {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #6A6D6A;
-    padding: 28px 31px 0 0;
-  }
-  main #blogs {
-    margin: 6rem 7rem 6rem 7rem;
-  }
-  main #blogs #div1 #div2 #img-div .img__para img {
-    position: relative;
-    left: 0px;
-  }
-  main #blogs #div1 #div2 #img-div .img__para p {
-    position: relative;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    color: #060B07;
-    top: 8px;
-    right: 19px;
-  }
-  main #blogs #div1 #div3 {
-    margin-top: 41px;
-  }
-  main #blogs #div1 #div3 .div4 div {
-    margin: 40px 0;
-  }
-  main #blogs #div1 #div3 #img-div {
-    margin: 74px 0;
-  }
-  main #blogs #div1 #div3 #img-div .img__para img {
-    position: relative;
-    left: 0px;
-    top: 32px;
-  }
-  main #blogs #div1 #div3 #img-div .img__para p {
-    position: relative;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    color: #060B07;
-    left: 20px;
-  }
-  main #blogs #div1 #div3 #img-div .content h2 {
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 31.25px;
-    line-height: 47px;
-    display: flex;
-    align-items: center;
-    color: #060B07;
-  }
-  main #blogs #div1 #div3 #img-div .para h2 {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 30px;
-    display: flex;
-    align-items: center;
-    color: #000000;
-  }
-  main #blogs #div1 #div3 #img-div .para p {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #6A6D6A;
-    padding: 28px 31px 0 0;
-  }
-  main #blogs #div1 #div5 {
-    margin: -28px;
-  }
-  main #blogs #div1 #div5 .div4 .c1 #cardBody1 .cardtext1 h2 {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 30px;
-    display: flex;
-    align-items: center;
-    color: #000000;
-    margin: 45px 0 30px 0;
-  }
-  main #blogs #div1 #div5 .div4 .c1 #cardBody1 .cardtext1 p {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #000000;
-  }
-  main #blogs #div1 #div5 .div4 .c1 #cardBody1 .cardtext1 .admin-div .div13 {
-    margin: -12px 0px;
-  }
-  main #blogs #div1 #div5 .div4 .c1 #cardBody1 .cardtext1 .admin-div .div13 h2 {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 2px;
-    display: flex;
-    align-items: center;
-    color: #060B07;
-    margin: 23px 0;
-  }
-  main #blogs #div1 #div5 .div4 .c1 #cardBody1 .cardtext1 .admin-div .div13 p {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 18px;
-    display: flex;
-    align-items: center;
-    color: #9B9D9C;
-    margin: -13px 0px;
-  }
-  main #contact {
-    padding: 6rem 7rem 6rem 7rem;
-    background-image: url(../img/Maskgroup11.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  main #contact #div1 #div2 .div4 h2 {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 25px;
-    line-height: 38px;
-    color: #060B07;
-    padding: 0 12px 0 0;
-  }
-  main #contact #div1 #div2 .div4 .form {
-    mix-blend-mode: normal;
-    -webkit-backdrop-filter: blur(5px);
-            backdrop-filter: blur(5px);
-    border-radius: 16px;
-  }
-  main #contact #div1 #div2 .div4 .form form label {
-    position: relative;
-    top: 16px;
-    color: black;
-    background-color: white;
-    padding: 3px 4px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 10.24px;
-    line-height: 15px;
-    display: flex;
-    align-items: center;
-    color: #6A6D6A;
-  }
-  main #contact #div1 #div2 .div4 .form form textarea {
-    position: relative;
-    color: black;
-    background-color: white;
-    padding: 3px 4px;
-    font-style: normal;
-    font-size: 15.24px;
-    line-height: 15px;
-    display: flex;
-    align-items: center;
-    color: #6A6D6A;
-    border: 0;
-  }
-  main #contact #div1 #div2 .div4 .form form .img-form1 {
-    position: absolute;
-    left: 87.1%;
-    right: 3.95%;
-    top: 19%;
-    bottom: 34.96%;
-  }
-  main #contact #div1 #div2 .div4 .form form .img-form {
-    position: absolute;
-    left: 87.1%;
-    right: 3.95%;
-    top: 39.38%;
-    bottom: 34.96%;
-  }
-  main #contact #div1 #div2 .div4 .form form input {
-    border: none;
-    height: 41px;
-    border-radius: 0;
-    padding: 3px 4px;
-    font-style: normal;
-    font-size: 15.24px;
-  }
-  main #contact #div1 #div2 .div4 .form form .button .sec1_button .out_btn2 .btn2 {
-    color: var(--primary-color);
-    background-color: black;
-    border-color: black;
-    padding: 9px 28px;
-  }
-  main #contact #div1 #div2 .div4 .form form .button .sec1_button .out_btn2 .btn2:hover {
-    background-color: transparent;
-    color: var(--white-color);
-    border-color: var(--white-color);
-  }
-  main #contact #div1 #div2 .div4 .form form .button .sec1_button .out_btn2 .btn2 span {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 22px;
-    /* identical to box height, or 138% */
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 1px;
-    color: #FFFFFF;
   }
   .services #hero {
     padding: 169px 0;
