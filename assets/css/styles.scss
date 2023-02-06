@@ -6,7 +6,7 @@
     --header-height: 3rem;
 
     /*===== Colores =====*/
-    --first-color: #3664F4;
+    --first-color: #8B8B8B;
     --primary-color: #4C7CDE;
     --dark-color: #070D1F;
     --dark-color-alt: #282B3A;
@@ -2983,7 +2983,11 @@ img {
     }
 
     &__link {
-        color: var(--white-color);
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 22px;
+        color: var(--first-color);
     }
 
     &__social {
@@ -3108,10 +3112,10 @@ img {
         #hero {
             margin-left: 0;
             width: 100%;
-            // height: 100vh;
-            background-image: url(../img/Group1.png);
+            background-image: url(../img/bg.png);
             background-size: 100% 100%;
             background-repeat: no-repeat;
+            height: 54rem;
 
             ::placeholder {
                 color: white;
@@ -3120,19 +3124,13 @@ img {
             #div1 {
                 #div2 {
                     #div3 {
+                        display: flex;
+                        justify-content: center;
+
                         .itm1 {
                             margin-top: 0rem;
-                            padding: 8.6rem 0;
+                            padding: 29.6rem 0 0 0;
 
-                            h3 {
-                                font-style: normal;
-                                font-weight: 400;
-                                font-size: 31.25px;
-                                line-height: 37px;
-                                display: flex;
-                                align-items: center;
-                                color: #92C020;
-                            }
 
                             p {
                                 font-family: 'Poppins';
@@ -3143,23 +3141,24 @@ img {
                                 display: flex;
                                 align-items: center;
                                 color: #FFFFFF;
+                                padding: 20px 13rem;
                             }
 
                             .hero_button {
-                                margin: 46px 0;
+                                margin: 18px 0 46px 0;
 
                                 .btn3 {
                                     color: var(--white-color);
                                     // opacity: .4;
                                     background-color: var(--primary-color);
                                     border-color: var(--primary-color);
-                                    width: 25%;
-                                    padding: 9px 8px;
+                                    width: 100%;
+                                    padding: 9px 18px;
 
                                     &:hover {
                                         background-color: transparent;
-                                        color: var(--white-color);
-                                        border-color: var(--white-color);
+                                        color: #4C7CDE;
+                                        border-color: var(--primary-color);
                                     }
 
                                     span {
@@ -3170,103 +3169,8 @@ img {
                                         display: flex;
                                         justify-content: center;
                                         letter-spacing: 1px;
-                                        color: #FFFFFF;
                                     }
                                 }
-                            }
-                        }
-                    }
-
-                    .form-ui {
-                        .div1 {
-                            padding: 8.6rem 0;
-
-                            .form {
-                                background: linear-gradient(180deg, rgba(255, 255, 255, 0.21) 0%, rgba(255, 255, 255, 0.06) 100%);
-                                padding: 40px;
-                                mix-blend-mode: normal;
-                                backdrop-filter: blur(5px);
-                                border-radius: 16px;
-
-                                form {
-                                    label {
-                                        position: relative;
-                                        top: 16px;
-                                        color: black;
-                                        background-color: white;
-                                        padding: 3px 4px;
-                                        font-style: normal;
-                                        font-weight: 500;
-                                        font-size: 10.24px;
-                                        line-height: 15px;
-                                        display: flex;
-                                        align-items: center;
-                                        color: #6A6D6A;
-                                    }
-
-                                    .img-form1 {
-                                        position: absolute;
-                                        left: 87.1%;
-                                        right: 3.95%;
-                                        top: 19%;
-                                        bottom: 34.96%;
-                                    }
-
-                                    .img-form {
-                                        position: absolute;
-                                        left: 87.1%;
-                                        right: 3.95%;
-                                        top: 39.38%;
-                                        bottom: 34.96%;
-                                    }
-
-                                    input {
-                                        border: none;
-                                        height: 27px;
-                                        border-radius: 0;
-                                    }
-
-                                    .button {
-                                        .sec1_button {
-                                            .out_btn2 {
-                                                .btn2 {
-                                                    color: var(--white-color);
-                                                    // opacity: .4;
-                                                    background-color: var(--primary-color);
-                                                    border-color: var(--primary-color);
-                                                    padding: 9px 28px;
-
-
-                                                    &:hover {
-                                                        background-color: transparent;
-                                                        color: var(--white-color);
-                                                        border-color: var(--white-color);
-                                                    }
-
-                                                    span {
-                                                        font-style: normal;
-                                                        font-weight: 500;
-                                                        font-size: 16px;
-                                                        line-height: 22px;
-                                                        /* identical to box height, or 138% */
-
-                                                        display: flex;
-                                                        align-items: center;
-                                                        text-align: center;
-                                                        letter-spacing: 1px;
-
-                                                        color: #FFFFFF;
-                                                    }
-                                                }
-                                            }
-                                        }
-                                    }
-                                }
-
-
-
-
-
                             }
                         }
                     }
@@ -3276,7 +3180,17 @@ img {
                     .scroll-content {
                         img {
                             position: relative;
-                            top: 80px;
+                        }
+                    }
+                }
+
+                #our_products {
+                    .maindiv {
+                        background-color: #F3F3F3;
+                        border-radius: 8px;
+
+                        img {
+                            padding: 33px;
                         }
                     }
                 }
