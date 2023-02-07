@@ -1,6 +1,7 @@
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap");
 /*===== VARIABLES CSS =====*/
 :root {
   --header-height: 3rem;
@@ -2358,6 +2359,7 @@ img {
     line-height: 24px;
     color: #8B8B8B;
     padding: 28px 31px 0 0;
+    text-align: justify;
   }
   main #more__about #div1 #div2 #img-div .para .about_button {
     margin: 46px 0 46px 0;
@@ -2384,7 +2386,7 @@ img {
     text-transform: uppercase;
   }
   main #services {
-    margin: 6rem 7rem 0 7rem;
+    margin: 0rem 7rem 0 7rem;
   }
   main #services #div1 #div2 #img-div .content p {
     font-style: normal;
@@ -2462,152 +2464,115 @@ img {
     justify-content: center;
     text-transform: uppercase;
   }
-  .services #hero {
-    padding: 169px 0;
-    width: 100%;
-    background-image: url(../img/background.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+  main #what_we_do {
+    margin: 0 7rem 0 7rem;
   }
-  .services #services {
+  main #what_we_do #div1 #div2 #img-div {
+    padding: 8rem 0px;
+  }
+  main #what_we_do #div1 #div2 #img-div .content h2 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 31.25px;
+    line-height: 47px;
+    display: flex;
+    align-items: center;
+    color: #060B07;
+  }
+  main #what_we_do #div1 #div2 #img-div .content p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #8B8B8B;
+  }
+  main #what_we_do #div1 #div2 #img-div .para p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8B8B8B;
+    padding: 28px 31px 0 0;
+    text-align: justify;
+  }
+  main #what_we_do #div1 #div2 #img-div .para .about_button {
+    margin: 46px 0 46px 0;
+  }
+  main #what_we_do #div1 #div2 #img-div .para .about_button .btn3 {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    width: 25%;
+    padding: 9px 18px;
+  }
+  main #what_we_do #div1 #div2 #img-div .para .about_button .btn3:hover {
+    background-color: transparent;
+    color: #4C7CDE;
+    border-color: var(--primary-color);
+  }
+  main #what_we_do #div1 #div2 #img-div .para .about_button .btn3 span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+  }
+  main #bannerbg {
+    padding: 6rem 0rem 6rem 0rem;
+    background-image: url(../img/bannerbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  main #bannerbg #div1 #div2 #div3 {
+    padding: 63px 0 0 0;
+  }
+  main #bannerbg #div1 #div2 #div3 h2 {
+    font-family: "outfit", Poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31.25px;
+    line-height: 47px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: var(--white-color);
+  }
+  main #bannerbg #div1 #div2 #div3 .banner_button {
+    margin: 36px 0 0 0;
+  }
+  main #bannerbg #div1 #div2 #div3 .banner_button a .btn3 {
+    color: var(--primary-color);
+    background-color: var(--white-color);
+    border-color: var(--primary-color);
+    padding: 9px 36px;
+    border-radius: 5px;
+  }
+  main #bannerbg #div1 #div2 #div3 .banner_button a .btn3:hover {
+    background-color: transparent;
+    color: var(--white-color);
+    border-color: var(--white-color);
+  }
+  main #bannerbg #div1 #div2 #div3 .banner_button a .btn3 span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 138% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+  main #frequentquestion {
     margin: 6rem 7rem 0 7rem;
   }
-  .services #services #div1 #div2 #img-div .img__para img {
-    position: relative;
-    left: 0px;
+  main #frequentquestion #div1 #div2 #img-div {
+    margin: 41px 0;
   }
-  .services #services #div1 #div2 #img-div .img__para p {
-    position: relative;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    color: #060B07;
-    top: 8px;
-    right: 19px;
-  }
-  .services #services #div1 #div3 .div4 .c1 {
-    width: 85%;
-    background-repeat: no-repeat;
-  }
-  .services #services #div1 #div3 .div4 .c1 #cardBody1 .card-text1 img {
-    width: 168.85px;
-    height: 91.78px;
-  }
-  .services #services #div1 #div3 .div4 .c1 #cardBody1 .cardtext1 {
-    margin: 30px 15px 20px 15px;
-  }
-  .services #services #div1 #div3 .div4 .c1 #cardBody1 .cardtext1 h2 {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 25px;
-    line-height: 38px;
-    text-align: center;
-    color: #060B07;
-  }
-  .services #services #div1 #div3 .div4 .c1 #cardBody1 .cardtext1 p {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-    color: #383C39;
-    margin: 24px 6px;
-  }
-  .services #services #div1 #div3 .div4 .c1 #cardBody1 .cardtext1 .card_button a .btn3 {
-    color: var(--white-color);
-    background-color: var(--primary-color);
-    border-color: var(--primary-color);
-    padding: 9px 28px;
-  }
-  .services #services #div1 #div3 .div4 .c1 #cardBody1 .cardtext1 .card_button a .btn3:hover {
-    background-color: transparent;
-    color: var(--primary-color);
-    border-color: var(--primary-color);
-  }
-  .services #services #div1 #div3 .div4 .c1 #cardBody1 .cardtext1 .card_button a .btn3 span {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 22px;
-    /* identical to box height, or 138% */
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 1px;
-  }
-  .services #services #div1 #div3 .div4 .c2 {
-    width: 85%;
-    background-repeat: no-repeat;
-  }
-  .services #services #div1 #div3 .div4 .c2 #cardBody1 .card-text1 img {
-    width: 106.35px;
-    height: 91.78px;
-  }
-  .services #services #div1 #div3 .div4 .c2 #cardBody1 .cardtext1 {
-    margin: 30px 15px 20px 15px;
-  }
-  .services #services #div1 #div3 .div4 .c2 #cardBody1 .cardtext1 h2 {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 25px;
-    line-height: 38px;
-    text-align: center;
-    color: #060B07;
-  }
-  .services #services #div1 #div3 .div4 .c2 #cardBody1 .cardtext1 p {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-    color: #383C39;
-    margin: 24px 0;
-  }
-  .services #services #div1 #div3 .div4 .c2 #cardBody1 .cardtext1 .card_button a .btn3 {
-    color: var(--primary-color);
-    background-color: white;
-    border-color: var(--White-color);
-    padding: 9px 28px;
-  }
-  .services #services #div1 #div3 .div4 .c2 #cardBody1 .cardtext1 .card_button a .btn3:hover {
-    background-color: transparent;
-    color: var(--white-color);
-    border-color: var(--white-color);
-  }
-  .services #services #div1 #div3 .div4 .c2 #cardBody1 .cardtext1 .card_button a .btn3 span {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 22px;
-    /* identical to box height, or 138% */
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 1px;
-  }
-  .services #bannerservices {
-    margin: 6rem 7rem 6rem 7rem;
-  }
-  .services #bannerservices #div1 #div2 #img-div .img__para img {
-    position: relative;
-    left: 0px;
-    top: 32px;
-  }
-  .services #bannerservices #div1 #div2 #img-div .img__para p {
-    position: relative;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    color: #060B07;
-    left: 20px;
-  }
-  .services #bannerservices #div1 #div2 #img-div .content h2 {
+  main #frequentquestion #div1 #div2 #img-div .content h2 {
     font-family: "Poppins";
     font-style: normal;
     font-weight: 600;
@@ -2616,171 +2581,131 @@ img {
     display: flex;
     align-items: center;
     color: #060B07;
-    margin: 0 243px 0 0;
   }
-  .services #bannerservices #div1 #div2 #img-div .para p {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #6A6D6A;
-    padding: 28px 123px 0 0;
-  }
-  .services #bannerbg {
-    padding: 6rem 0rem 6rem 0rem;
-    background-image: url(../img/bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .services #bannerbg #div1 #div2 #div3 .h2 {
+  main #frequentquestion #div1 #div2 #img-div .content p {
     font-style: normal;
     font-weight: 700;
-    font-size: 31.25px;
-    line-height: 47px;
-    display: flex;
-    align-items: center;
-    color: #060B07;
-  }
-  .services #bannerbg #div1 #div2 #div3 p {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #060B07;
-    padding: 28px 122px 31px 0px;
-  }
-  .services #bannerbg #div1 #div2 #div3 p span {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
-    color: #FFFFFF;
-  }
-  .services #bannerbg #div1 #div2 #div3 .banner_button a .btn3 {
-    color: var(--primary-color);
-    background-color: var(--dark-color);
-    border-color: var(--primary-color);
-    padding: 9px 59px;
-    border-radius: 5px;
-  }
-  .services #bannerbg #div1 #div2 #div3 .banner_button a .btn3:hover {
-    background-color: transparent;
-    color: var(--white-color);
-    border-color: var(--white-color);
-  }
-  .services #bannerbg #div1 #div2 #div3 .banner_button a .btn3 span {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 22px;
-    /* identical to box height, or 138% */
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 1px;
-    color: #FFFFFF;
-  }
-  .services #carousel #section2 .r2 .div1 .card-text1 {
-    padding: 10px;
-  }
-  .services #carousel #section2 .r2 .div1 .card-text1 .maindiv .div2 div {
-    padding: 40px 0 59px 97px;
-  }
-  .services #carousel #section2 .r2 .div1 .card-text1 .maindiv .div2 div h2 {
-    font-style: normal;
-    font-weight: 600;
     font-size: 20px;
     line-height: 30px;
-    display: flex;
-    align-items: center;
-    color: #000000;
+    color: #8B8B8B;
   }
-  .services #carousel #section2 .r2 .div1 .card-text1 .maindiv .div2 div p {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    color: #000000;
-    padding: 24px 55px 0 0px;
-  }
-  .services #mobile-app {
-    margin: 0rem 7rem 6rem 7rem;
-  }
-  .services #mobile-app #div1 #div2 #img-div .img__para img {
+  main #frequentquestion #div1 #div2 #img-div .Dropdowns #all_container .faq {
+    width: 100%;
+    margin: 0 auto;
     position: relative;
-    left: 0px;
-    top: 32px;
+    border-bottom: 1px dashed var(--first-color);
   }
-  .services #mobile-app #div1 #div2 #img-div .img__para p {
+  main #frequentquestion #div1 #div2 #img-div .Dropdowns #all_container .faq label {
+    display: block;
     position: relative;
-    font-style: normal;
-    font-weight: 500;
+    overflow: hidden;
+    cursor: pointer;
+    height: 56px;
+    padding-top: 1px;
+    border-radius: 10px;
+  }
+  main #frequentquestion #div1 #div2 #img-div .Dropdowns #all_container .faq label .faq-heading {
+    font-weight: 800;
+    font-size: 14px;
+    padding: 16px;
+    color: var(--first-color);
+  }
+  main #frequentquestion #div1 #div2 #img-div .Dropdowns #all_container .faq label .faq-text {
+    font-weight: 300;
     font-size: 16px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    color: #060B07;
-    left: 20px;
+    line-height: 100%;
+    color: var(--first-color);
+    width: 95%;
+    padding-left: 20px;
+    margin-bottom: 30px;
+    text-align: justify;
   }
-  .services #mobile-app #div1 #div2 #img-div .content h2 {
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 31.25px;
-    line-height: 47px;
-    display: flex;
-    align-items: center;
-    color: #060B07;
+  main #frequentquestion #div1 #div2 #img-div .Dropdowns #all_container .faq input[type=checkbox] {
+    display: none;
   }
-  .services #mobile-app #div1 #div2 #img-div .para p {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #6A6D6A;
-    padding: 28px 31px 0 0;
+  main #frequentquestion #div1 #div2 #img-div .Dropdowns #all_container .faq .faq-arrow {
+    width: 13px;
+    height: 13px;
+    transition: transform 0.8s;
+    border-top: 4px solid var(--dark-color);
+    border-right: 4px solid var(--dark-color);
+    float: right;
+    position: relative;
+    top: -51px;
+    right: 30px;
+    transform: rotate(45deg);
   }
-  .services #contact {
+  main #frequentquestion #div1 #div2 #img-div .Dropdowns #all_container .faq input[type=checkbox]:checked + label {
+    display: block;
+    color: white;
+    height: 185px;
+    transition: height 0.2s;
+  }
+  main #frequentquestion #div1 #div2 #img-div .Dropdowns #all_container .faq input[type=checkbox]:checked + label > .faq-arrow {
+    transition: transform 0.8s;
+    transform: rotate(135deg);
+  }
+  main #frequentquestion #div1 #div2 #img-div .Dropdowns #all_container .faq input[type=checkbox]:checked + label > .faq-heading {
+    font-weight: 800;
+    font-size: 14px;
+    color: var(--primary-color);
+    padding: 16px;
+  }
+  main #frequentquestion #div1 #div2 #img-div .Dropdowns #all_container .faq input[type=checkbox]:not(:checked) + label {
+    display: block;
+    transition: height 0.8s;
+    height: 60px;
+  }
+  #contact {
     padding: 6rem 7rem 6rem 7rem;
-    background-image: url(../img/Maskgroup11.png);
+  }
+  #contact #div1 {
+    background-image: url(../img/contactbg.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 80rem 54rem;
   }
-  .services #contact #div1 #div2 .div4 h2 {
+  #contact #div1 #div2 .div4 {
+    padding: 7rem 0 8rem 0;
+  }
+  #contact #div1 #div2 .div4 .sec1 div h3 {
     font-style: normal;
-    font-weight: 600;
-    font-size: 25px;
-    line-height: 38px;
-    color: #060B07;
-    padding: 0 12px 0 0;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
   }
-  .services #contact #div1 #div2 .div4 .form {
+  #contact #div1 #div2 .div4 .sec1 div h1 {
+    font-family: outfit;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  #contact #div1 #div2 .div4 .sec1 div p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #DCDCDC;
+  }
+  #contact #div1 #div2 .div4 .sec2 {
+    margin: 43px 0;
+  }
+  #contact #div1 #div2 .div4 .sec2 div .form {
     mix-blend-mode: normal;
     -webkit-backdrop-filter: blur(5px);
             backdrop-filter: blur(5px);
     border-radius: 16px;
   }
-  .services #contact #div1 #div2 .div4 .form form label {
-    position: relative;
-    top: 16px;
-    color: black;
-    background-color: white;
-    padding: 3px 4px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 10.24px;
-    line-height: 15px;
-    display: flex;
-    align-items: center;
-    color: #6A6D6A;
-  }
-  .services #contact #div1 #div2 .div4 .form form textarea {
+  #contact #div1 #div2 .div4 .sec2 div .form form textarea {
     position: relative;
     color: black;
     background-color: white;
-    padding: 3px 4px;
+    padding: 27px 28px;
     font-style: normal;
     font-size: 15.24px;
     line-height: 15px;
@@ -2789,983 +2714,76 @@ img {
     color: #6A6D6A;
     border: 0;
   }
-  .services #contact #div1 #div2 .div4 .form form .img-form1 {
-    position: absolute;
-    left: 87.1%;
-    right: 3.95%;
-    top: 19%;
-    bottom: 34.96%;
-  }
-  .services #contact #div1 #div2 .div4 .form form .img-form {
-    position: absolute;
-    left: 87.1%;
-    right: 3.95%;
-    top: 39.38%;
-    bottom: 34.96%;
-  }
-  .services #contact #div1 #div2 .div4 .form form input {
-    border: none;
-    height: 41px;
-    border-radius: 0;
-    padding: 3px 4px;
-    font-style: normal;
-    font-size: 15.24px;
-  }
-  .services #contact #div1 #div2 .div4 .form form .button .sec1_button .out_btn2 .btn2 {
-    color: var(--primary-color);
-    background-color: black;
-    border-color: black;
-    padding: 9px 28px;
-  }
-  .services #contact #div1 #div2 .div4 .form form .button .sec1_button .out_btn2 .btn2:hover {
-    background-color: transparent;
-    color: var(--white-color);
-    border-color: var(--white-color);
-  }
-  .services #contact #div1 #div2 .div4 .form form .button .sec1_button .out_btn2 .btn2 span {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 22px;
-    /* identical to box height, or 138% */
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 1px;
-    color: #FFFFFF;
-  }
-  .blogs #hero {
-    padding: 173px 0;
-    width: 100%;
-    background-image: url(../img/background2.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-  }
-  .blogs #blogs {
-    margin: 6rem 7rem 6rem 7rem;
-  }
-  .blogs #blogs #div1 #div2 #img-div .img__para img {
-    position: relative;
-    left: 0px;
-  }
-  .blogs #blogs #div1 #div2 #img-div .img__para p {
-    position: relative;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    color: #060B07;
-    top: -31px;
-    left: 20px;
-  }
-  .blogs #blogs #div1 #div2 .admin-side .h2tag {
-    margin: 20px -63px;
-  }
-  .blogs #blogs #div1 #div2 .admin-side .h2tag h2 {
+  #contact #div1 #div2 .div4 .sec2 div .form form textarea::-moz-placeholder {
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
-    line-height: 2px;
-    display: flex;
-    align-items: center;
-    color: #060B07;
-  }
-  .blogs #blogs #div1 #div2 .admin-side .h2tag p {
-    font-style: normal;
-    font-weight: 500;
     font-size: 12px;
     line-height: 18px;
-    display: flex;
-    align-items: center;
-    color: #9B9D9C;
+    color: #8B8B8B;
   }
-  .blogs #blogs #div1 #div2 .content {
-    margin: -13px 0 0 0;
-  }
-  .blogs #blogs #div1 #div2 .content h2 {
+  #contact #div1 #div2 .div4 .sec2 div .form form textarea:-ms-input-placeholder {
     font-style: normal;
     font-weight: 600;
-    font-size: 33.25px;
-    line-height: 33px;
-    /* Color Theme - Nearby Cars/grey 100 */
-    color: #060B07;
+    font-size: 12px;
+    line-height: 18px;
+    color: #8B8B8B;
   }
-  .blogs #blogs #div1 #div2 .para {
-    margin: 57px 0;
-  }
-  .blogs #blogs #div1 #div2 .para p {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #000000;
-    padding: 0 106px 0 0;
-  }
-  .blogs #blogs #div1 #div2 .para p span {
+  #contact #div1 #div2 .div4 .sec2 div .form form textarea::placeholder {
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-    color: #000000;
+    font-size: 12px;
+    line-height: 18px;
+    color: #8B8B8B;
   }
-  .blogs #blogs #div1 #div2 .hero_button {
-    margin: 46px 0;
-  }
-  .blogs #blogs #div1 #div2 .hero_button .btn3 {
-    color: var(--white-color);
-    background-color: var(--primary-color);
-    border-color: var(--primary-color);
-    width: 25%;
-    padding: 9px 8px;
-  }
-  .blogs #blogs #div1 #div2 .hero_button .btn3:hover {
-    background-color: transparent;
-    color: var(--primary-color);
-    border-color: var(--primary-color);
-  }
-  .blogs #blogs #div1 #div2 .hero_button .btn3 span {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 22px;
-    display: flex;
-    justify-content: center;
-    letter-spacing: 1px;
-  }
-  .blogs #blogs #div1 #div4 .searchbar form label {
-    position: relative;
-    top: 16px;
-    color: black;
-    background: #E6E7E6;
-    padding: 3px 11px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 10.24px;
-    line-height: 15px;
-    display: flex;
-    align-items: center;
-    color: #6A6D6A;
-  }
-  .blogs #blogs #div1 #div4 .searchbar form input {
-    border: none;
-    height: 27px;
-    border-radius: 0;
-    background: #E6E7E6;
-  }
-  .blogs #blogs #div1 #div4 .recentpost {
-    margin: 40px 0;
-    background: #E9F2D2;
-    border-radius: 8px;
-  }
-  .blogs #blogs #div1 #div4 .recentpost h2 {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    color: #92C020;
-    padding: 12px;
-  }
-  .blogs #blogs #div1 #div4 .recentpost p {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    color: #060B07;
-    padding: 15px 12px 18px 12px;
-  }
-  .blogs #blogs #div1 #div4 .recentcat {
-    margin: 40px 0;
-    background: #E9F2D2;
-    border-radius: 8px;
-  }
-  .blogs #blogs #div1 #div4 .recentcat h2 {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    color: #92C020;
-    padding: 12px;
-  }
-  .blogs #blogs #div1 #div4 .recentcat p {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    color: #060B07;
-    padding: 15px 12px 18px 12px;
-  }
-  .blogs #bannerbg {
-    padding: 6rem 0rem 6rem 0rem;
-    background-image: url(../img/bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .blogs #bannerbg #div1 #div2 #div3 .h2 {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 31.25px;
-    line-height: 47px;
-    display: flex;
-    align-items: center;
-    color: #060B07;
-  }
-  .blogs #bannerbg #div1 #div2 #div3 p {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #060B07;
-    padding: 28px 122px 31px 0px;
-  }
-  .blogs #bannerbg #div1 #div2 #div3 p span {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
-    color: #FFFFFF;
-  }
-  .blogs #bannerbg #div1 #div2 #div3 .banner_button a .btn3 {
-    color: var(--primary-color);
-    background-color: var(--dark-color);
-    border-color: var(--primary-color);
-    padding: 9px 59px;
-    border-radius: 5px;
-  }
-  .blogs #bannerbg #div1 #div2 #div3 .banner_button a .btn3:hover {
-    background-color: transparent;
-    color: var(--white-color);
-    border-color: var(--white-color);
-  }
-  .blogs #bannerbg #div1 #div2 #div3 .banner_button a .btn3 span {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 22px;
-    /* identical to box height, or 138% */
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 1px;
-    color: #FFFFFF;
-  }
-  .blogs #mobile-app {
-    margin: 0rem 7rem 6rem 7rem;
-  }
-  .blogs #mobile-app #div1 #div2 #img-div .img__para img {
-    position: relative;
-    left: 0px;
-    top: 32px;
-  }
-  .blogs #mobile-app #div1 #div2 #img-div .img__para p {
-    position: relative;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    color: #060B07;
-    left: 20px;
-  }
-  .blogs #mobile-app #div1 #div2 #img-div .content h2 {
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 31.25px;
-    line-height: 47px;
-    display: flex;
-    align-items: center;
-    color: #060B07;
-  }
-  .blogs #mobile-app #div1 #div2 #img-div .para p {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #6A6D6A;
-    padding: 28px 31px 0 0;
-  }
-  .blogs #contact {
-    padding: 6rem 7rem 6rem 7rem;
-    background-image: url(../img/Maskgroup11.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .blogs #contact #div1 #div2 .div4 h2 {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 25px;
-    line-height: 38px;
-    color: #060B07;
-    padding: 0 12px 0 0;
-  }
-  .blogs #contact #div1 #div2 .div4 .form {
-    mix-blend-mode: normal;
-    -webkit-backdrop-filter: blur(5px);
-            backdrop-filter: blur(5px);
-    border-radius: 16px;
-  }
-  .blogs #contact #div1 #div2 .div4 .form form label {
-    position: relative;
-    top: 16px;
-    color: black;
-    background-color: white;
-    padding: 3px 4px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 10.24px;
-    line-height: 15px;
-    display: flex;
-    align-items: center;
-    color: #6A6D6A;
-  }
-  .blogs #contact #div1 #div2 .div4 .form form textarea {
-    position: relative;
-    color: black;
-    background-color: white;
-    padding: 3px 4px;
-    font-style: normal;
-    font-size: 15.24px;
-    line-height: 15px;
-    display: flex;
-    align-items: center;
-    color: #6A6D6A;
-    border: 0;
-  }
-  .blogs #contact #div1 #div2 .div4 .form form .img-form1 {
-    position: absolute;
-    left: 87.1%;
-    right: 3.95%;
-    top: 19%;
-    bottom: 34.96%;
-  }
-  .blogs #contact #div1 #div2 .div4 .form form .img-form {
-    position: absolute;
-    left: 87.1%;
-    right: 3.95%;
-    top: 39.38%;
-    bottom: 34.96%;
-  }
-  .blogs #contact #div1 #div2 .div4 .form form input {
-    border: none;
+  #contact #div1 #div2 .div4 .sec2 div .form form input {
     height: 41px;
-    border-radius: 0;
-    padding: 3px 4px;
+    border-radius: 8x;
+    padding: 27px 28px;
     font-style: normal;
     font-size: 15.24px;
   }
-  .blogs #contact #div1 #div2 .div4 .form form .button .sec1_button .out_btn2 .btn2 {
+  #contact #div1 #div2 .div4 .sec2 div .form form input::-moz-placeholder {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #8B8B8B;
+  }
+  #contact #div1 #div2 .div4 .sec2 div .form form input:-ms-input-placeholder {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #8B8B8B;
+  }
+  #contact #div1 #div2 .div4 .sec2 div .form form input::placeholder {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #8B8B8B;
+  }
+  #contact #div1 #div2 .div4 .sec2 div .form form .button .sec1_button .out_btn2 .btn2 {
     color: var(--primary-color);
-    background-color: black;
-    border-color: black;
+    background-color: white;
+    border-color: var(--primary-color);
     padding: 9px 28px;
+    border-radius: 6px;
   }
-  .blogs #contact #div1 #div2 .div4 .form form .button .sec1_button .out_btn2 .btn2:hover {
+  #contact #div1 #div2 .div4 .sec2 div .form form .button .sec1_button .out_btn2 .btn2:hover {
     background-color: transparent;
     color: var(--white-color);
     border-color: var(--white-color);
   }
-  .blogs #contact #div1 #div2 .div4 .form form .button .sec1_button .out_btn2 .btn2 span {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 22px;
-    /* identical to box height, or 138% */
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 1px;
-    color: #FFFFFF;
-  }
-  .locations #hero {
-    padding: 173px 0;
-    width: 100%;
-    background-image: url(../img/background3.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-  }
-  .locations #locations {
-    margin: 6rem 7rem 6rem 7rem;
-  }
-  .locations #locations #div1 #div2 #img-div .img__para img {
-    position: relative;
-    left: 0px;
-  }
-  .locations #locations #div1 #div2 #img-div .img__para p {
-    position: relative;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    color: #060B07;
-    top: -31px;
-    left: 20px;
-  }
-  .locations #locations #div1 #div2 .hero_button {
-    margin: 46px 0;
-  }
-  .locations #locations #div1 #div2 .hero_button .btn3 {
-    color: var(--white-color);
-    background-color: var(--primary-color);
-    border-color: var(--primary-color);
-    width: 25%;
-    padding: 9px 8px;
-  }
-  .locations #locations #div1 #div2 .hero_button .btn3:hover {
-    background-color: transparent;
-    color: var(--primary-color);
-    border-color: var(--primary-color);
-  }
-  .locations #locations #div1 #div2 .hero_button .btn3 span {
+  #contact #div1 #div2 .div4 .sec2 div .form form .button .sec1_button .out_btn2 .btn2 span {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 22px;
     display: flex;
-    justify-content: center;
-    letter-spacing: 1px;
-  }
-  .locations #locations #div1 #div4 .searchbar form label {
-    position: relative;
-    top: 16px;
-    color: black;
-    background: #E6E7E6;
-    padding: 3px 11px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 10.24px;
-    line-height: 15px;
-    display: flex;
-    align-items: center;
-    color: #6A6D6A;
-  }
-  .locations #locations #div1 #div4 .searchbar form input {
-    border: none;
-    height: 27px;
-    border-radius: 0;
-    background: #E6E7E6;
-  }
-  .locations #locations #div1 #div4 .recentpost {
-    margin: 40px 0;
-    background: #E9F2D2;
-    border-radius: 8px;
-  }
-  .locations #locations #div1 #div4 .recentpost h2 {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    color: #92C020;
-    padding: 12px;
-  }
-  .locations #locations #div1 #div4 .recentpost p {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    color: #060B07;
-    padding: 15px 12px 18px 12px;
-  }
-  .locations #locations #div1 #div4 .recentcat {
-    margin: 40px 0;
-    background: #E9F2D2;
-    border-radius: 8px;
-  }
-  .locations #locations #div1 #div4 .recentcat h2 {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    color: #92C020;
-    padding: 12px;
-  }
-  .locations #locations #div1 #div4 .recentcat p {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    color: #060B07;
-    padding: 15px 12px 18px 12px;
-  }
-  .locations #bannerbg {
-    padding: 6rem 0rem 6rem 0rem;
-    background-image: url(../img/bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .locations #bannerbg #div1 #div2 #div3 .h2 {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 31.25px;
-    line-height: 47px;
-    display: flex;
-    align-items: center;
-    color: #060B07;
-  }
-  .locations #bannerbg #div1 #div2 #div3 p {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #060B07;
-    padding: 28px 122px 31px 0px;
-  }
-  .locations #bannerbg #div1 #div2 #div3 p span {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
-    color: #FFFFFF;
-  }
-  .locations #bannerbg #div1 #div2 #div3 .banner_button a .btn3 {
-    color: var(--primary-color);
-    background-color: var(--dark-color);
-    border-color: var(--primary-color);
-    padding: 9px 59px;
-    border-radius: 5px;
-  }
-  .locations #bannerbg #div1 #div2 #div3 .banner_button a .btn3:hover {
-    background-color: transparent;
-    color: var(--white-color);
-    border-color: var(--white-color);
-  }
-  .locations #bannerbg #div1 #div2 #div3 .banner_button a .btn3 span {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 22px;
-    /* identical to box height, or 138% */
-    display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 1px;
-    color: #FFFFFF;
-  }
-  .locations #mobile-app {
-    margin: 0rem 7rem 6rem 7rem;
-  }
-  .locations #mobile-app #div1 #div2 #img-div .img__para img {
-    position: relative;
-    left: 0px;
-    top: 32px;
-  }
-  .locations #mobile-app #div1 #div2 #img-div .img__para p {
-    position: relative;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    color: #060B07;
-    left: 20px;
-  }
-  .locations #mobile-app #div1 #div2 #img-div .content h2 {
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 31.25px;
-    line-height: 47px;
-    display: flex;
-    align-items: center;
-    color: #060B07;
-  }
-  .locations #mobile-app #div1 #div2 #img-div .para p {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #6A6D6A;
-    padding: 28px 31px 0 0;
-  }
-  .locations #contact {
-    padding: 6rem 7rem 6rem 7rem;
-    background-image: url(../img/Maskgroup11.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .locations #contact #div1 #div2 .div4 h2 {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 25px;
-    line-height: 38px;
-    color: #060B07;
-    padding: 0 12px 0 0;
-  }
-  .locations #contact #div1 #div2 .div4 .form {
-    mix-blend-mode: normal;
-    -webkit-backdrop-filter: blur(5px);
-            backdrop-filter: blur(5px);
-    border-radius: 16px;
-  }
-  .locations #contact #div1 #div2 .div4 .form form label {
-    position: relative;
-    top: 16px;
-    color: black;
-    background-color: white;
-    padding: 3px 4px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 10.24px;
-    line-height: 15px;
-    display: flex;
-    align-items: center;
-    color: #6A6D6A;
-  }
-  .locations #contact #div1 #div2 .div4 .form form textarea {
-    position: relative;
-    color: black;
-    background-color: white;
-    padding: 3px 4px;
-    font-style: normal;
-    font-size: 15.24px;
-    line-height: 15px;
-    display: flex;
-    align-items: center;
-    color: #6A6D6A;
-    border: 0;
-  }
-  .locations #contact #div1 #div2 .div4 .form form .img-form1 {
-    position: absolute;
-    left: 87.1%;
-    right: 3.95%;
-    top: 19%;
-    bottom: 34.96%;
-  }
-  .locations #contact #div1 #div2 .div4 .form form .img-form {
-    position: absolute;
-    left: 87.1%;
-    right: 3.95%;
-    top: 39.38%;
-    bottom: 34.96%;
-  }
-  .locations #contact #div1 #div2 .div4 .form form input {
-    border: none;
-    height: 41px;
-    border-radius: 0;
-    padding: 3px 4px;
-    font-style: normal;
-    font-size: 15.24px;
-  }
-  .locations #contact #div1 #div2 .div4 .form form .button .sec1_button .out_btn2 .btn2 {
-    color: var(--primary-color);
-    background-color: black;
-    border-color: black;
-    padding: 9px 28px;
-  }
-  .locations #contact #div1 #div2 .div4 .form form .button .sec1_button .out_btn2 .btn2:hover {
-    background-color: transparent;
-    color: var(--white-color);
-    border-color: var(--white-color);
-  }
-  .locations #contact #div1 #div2 .div4 .form form .button .sec1_button .out_btn2 .btn2 span {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 22px;
-    /* identical to box height, or 138% */
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 1px;
-    color: #FFFFFF;
-  }
-  .deliveries #hero {
-    padding: 173px 0;
-    width: 100%;
-    background-image: url(../img/background4.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-  }
-  .deliveries #diliveries {
-    margin: 6rem 7rem 6rem 7rem;
-  }
-  .deliveries #diliveries #div1 #div2 #img-div .img__para img {
-    position: relative;
-    left: 0px;
-  }
-  .deliveries #diliveries #div1 #div2 #img-div .img__para p {
-    position: relative;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    color: #060B07;
-    top: 12px;
-    left: -13px;
-  }
-  .deliveries #diliveries #div1 #div2 #img-div .img-heading h2 {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 31.25px;
-    line-height: 47px;
-    /* identical to box height */
-    display: flex;
-    align-items: center;
-    text-align: center;
-    /* Color Theme - Nearby Cars/grey 100 */
-    color: #060B07;
-  }
-  .deliveries #diliveries #div1 #div2 #img-div .img-content p {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-    padding: 0 26px;
-    color: #000000;
-  }
-  .deliveries #delivery {
-    margin: 6rem 7rem 6rem 7rem;
-  }
-  .deliveries #delivery #div1 #div2 #img-div .img__para img {
-    position: relative;
-    left: 0px;
-  }
-  .deliveries #delivery #div1 #div2 #img-div .img__para p {
-    position: relative;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    color: #060B07;
-    top: -31px;
-    left: 20px;
-  }
-  .deliveries #delivery #div1 #div2 .content {
-    margin: -31px 0 49px 0;
-  }
-  .deliveries #delivery #div1 #div2 .content h2 {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 31.25px;
-    line-height: 47px;
-    /* identical to box height */
-    /* Color Theme - Nearby Cars/grey 100 */
-    color: #060B07;
-  }
-  .deliveries #delivery #div1 #div2 .inner-content {
-    padding: 8px 0;
-  }
-  .deliveries #delivery #div1 #div2 .inner-content h2 {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 30px;
-    color: #060B07;
-  }
-  .deliveries #delivery #div1 #div2 .inner-content p {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #060B07;
-  }
-  .deliveries #delivery #div1 #div2 .inner-content p span {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-    color: #92C020;
-  }
-  .deliveries #bannerbg {
-    padding: 6rem 0rem 6rem 0rem;
-    background-image: url(../img/bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .deliveries #bannerbg #div1 #div2 #div3 .h2 {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 31.25px;
-    line-height: 47px;
-    display: flex;
-    align-items: center;
-    color: #060B07;
-  }
-  .deliveries #bannerbg #div1 #div2 #div3 p {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #060B07;
-    padding: 28px 122px 31px 0px;
-  }
-  .deliveries #bannerbg #div1 #div2 #div3 p span {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
-    color: #FFFFFF;
-  }
-  .deliveries #bannerbg #div1 #div2 #div3 .banner_button a .btn3 {
-    color: var(--primary-color);
-    background-color: var(--dark-color);
-    border-color: var(--primary-color);
-    padding: 9px 59px;
-    border-radius: 5px;
-  }
-  .deliveries #bannerbg #div1 #div2 #div3 .banner_button a .btn3:hover {
-    background-color: transparent;
-    color: var(--white-color);
-    border-color: var(--white-color);
-  }
-  .deliveries #bannerbg #div1 #div2 #div3 .banner_button a .btn3 span {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 22px;
-    /* identical to box height, or 138% */
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 1px;
-    color: #FFFFFF;
-  }
-  .deliveries #mobile-app {
-    margin: 0rem 7rem 6rem 7rem;
-  }
-  .deliveries #mobile-app #div1 #div2 #img-div .img__para img {
-    position: relative;
-    left: 0px;
-    top: 32px;
-  }
-  .deliveries #mobile-app #div1 #div2 #img-div .img__para p {
-    position: relative;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    color: #060B07;
-    left: 20px;
-  }
-  .deliveries #mobile-app #div1 #div2 #img-div .content h2 {
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 31.25px;
-    line-height: 47px;
-    display: flex;
-    align-items: center;
-    color: #060B07;
-  }
-  .deliveries #mobile-app #div1 #div2 #img-div .para p {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #6A6D6A;
-    padding: 28px 31px 0 0;
-  }
-  .deliveries #contact {
-    padding: 6rem 7rem 6rem 7rem;
-    background-image: url(../img/Maskgroup11.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .deliveries #contact #div1 #div2 .div4 h2 {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 25px;
-    line-height: 38px;
-    color: #060B07;
-    padding: 0 12px 0 0;
-  }
-  .deliveries #contact #div1 #div2 .div4 .form {
-    mix-blend-mode: normal;
-    -webkit-backdrop-filter: blur(5px);
-            backdrop-filter: blur(5px);
-    border-radius: 16px;
-  }
-  .deliveries #contact #div1 #div2 .div4 .form form label {
-    position: relative;
-    top: 16px;
-    color: black;
-    background-color: white;
-    padding: 3px 4px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 10.24px;
-    line-height: 15px;
-    display: flex;
-    align-items: center;
-    color: #6A6D6A;
-  }
-  .deliveries #contact #div1 #div2 .div4 .form form textarea {
-    position: relative;
-    color: black;
-    background-color: white;
-    padding: 3px 4px;
-    font-style: normal;
-    font-size: 15.24px;
-    line-height: 15px;
-    display: flex;
-    align-items: center;
-    color: #6A6D6A;
-    border: 0;
-  }
-  .deliveries #contact #div1 #div2 .div4 .form form .img-form1 {
-    position: absolute;
-    left: 87.1%;
-    right: 3.95%;
-    top: 19%;
-    bottom: 34.96%;
-  }
-  .deliveries #contact #div1 #div2 .div4 .form form .img-form {
-    position: absolute;
-    left: 87.1%;
-    right: 3.95%;
-    top: 39.38%;
-    bottom: 34.96%;
-  }
-  .deliveries #contact #div1 #div2 .div4 .form form input {
-    border: none;
-    height: 41px;
-    border-radius: 0;
-    padding: 3px 4px;
-    font-style: normal;
-    font-size: 15.24px;
-  }
-  .deliveries #contact #div1 #div2 .div4 .form form .button .sec1_button .out_btn2 .btn2 {
-    color: var(--primary-color);
-    background-color: black;
-    border-color: black;
-    padding: 9px 28px;
-  }
-  .deliveries #contact #div1 #div2 .div4 .form form .button .sec1_button .out_btn2 .btn2:hover {
-    background-color: transparent;
-    color: var(--white-color);
-    border-color: var(--white-color);
-  }
-  .deliveries #contact #div1 #div2 .div4 .form form .button .sec1_button .out_btn2 .btn2 span {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 22px;
-    /* identical to box height, or 138% */
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 1px;
-    color: #FFFFFF;
   }
   #footer {
     background-color: black;
