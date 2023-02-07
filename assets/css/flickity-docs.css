@@ -15,6 +15,7 @@ https://flickity.metafizzy.co
   overflow: hidden;
   position: relative;
   /* height: 10; */
+  margin-right: 98px;
 }
 
 .flickity-slider {

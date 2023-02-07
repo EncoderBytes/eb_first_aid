@@ -1,5 +1,6 @@
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap");
 /*===== VARIABLES CSS =====*/
 :root {
   --header-height: 3rem;
@@ -2377,6 +2378,85 @@ img {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+  }
+  main #services {
+    margin: 6rem 7rem 0 7rem;
+  }
+  main #services #div1 #div2 #img-div .content p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #8B8B8B;
+  }
+  main #services #div1 #carousel #section2 .r2 .div1 .c1 .card-text1 .maindiv .div2 h2 {
+    font-family: "Outfit", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #303030;
+    margin: 18px 0 9px 0;
+  }
+  main #services #div1 #carousel #section2 .r2 .div1 .c1 .card-text1 .maindiv .div2 p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #8B8B8B;
+    padding: 9px 23px;
+  }
+  main #services #div1 #carousel #section2 .r2 .div1 .c1 .card-text1 .maindiv .div2 .hero_button {
+    margin: 25px 0 0 0;
+  }
+  main #services #div1 #carousel #section2 .r2 .div1 .c1 .card-text1 .maindiv .div2 .hero_button .btn3 {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    width: 100%;
+    padding: 9px 18px;
+  }
+  main #services #div1 #carousel #section2 .r2 .div1 .c1 .card-text1 .maindiv .div2 .hero_button .btn3:hover {
+    background-color: transparent;
+    color: #4C7CDE;
+    border-color: var(--primary-color);
+  }
+  main #services #div1 #carousel #section2 .r2 .div1 .c1 .card-text1 .maindiv .div2 .hero_button .btn3 span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+  }
+  main #services #div1 #carousel #section2 .r2 .div1 .c1 .card-text1 .maindiv .div2 .card_button {
+    margin: 18px 0 46px 0;
+  }
+  main #services #div1 #carousel #section2 .r2 .div1 .c1 .card-text1 .maindiv .div2 .card_button .btn3 {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    width: 100%;
+    padding: 3px 12px;
+    border-radius: 7px;
+  }
+  main #services #div1 #carousel #section2 .r2 .div1 .c1 .card-text1 .maindiv .div2 .card_button .btn3:hover {
+    background-color: transparent;
+    color: #4C7CDE;
+    border-color: var(--primary-color);
+  }
+  main #services #div1 #carousel #section2 .r2 .div1 .c1 .card-text1 .maindiv .div2 .card_button .btn3 span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
     line-height: 22px;
     display: flex;
     justify-content: center;
